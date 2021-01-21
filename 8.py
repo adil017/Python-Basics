@@ -1,0 +1,11 @@
+#Enter salary and find HRA,DA,PF
+sal=int(input("Enter the salary"))
+print(sal)
+x=(0.2*sal)
+print('HRA',x)
+y=(0.15*sal)
+print('DA=',y)
+z=(0.10*sal)
+print('PF=',z)
+a=(sal-(x+y+z))
+print('Net=',a)
